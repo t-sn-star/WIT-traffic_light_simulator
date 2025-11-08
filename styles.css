@@ -1,0 +1,14 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Pixel', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#All {
+    display: block;
+    margin: 20px auto;
+}
