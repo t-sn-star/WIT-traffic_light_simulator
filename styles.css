@@ -27,18 +27,18 @@ img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    transition: opacity 300ms ease-in-out; /* smooth fade */
 }
 #all, #red, #yellow, #green {
     margin-left: auto;
 }
-#all {
-    opacity: 1;
-}
-#red, #yellow, #green {
-    opacity: 0;
-}
+
 button {
-    margin-top: 4px;
+    margin-top: 1px;
     padding: 10px 20px;
     font-size: 20px;
+    border-radius: 25px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: black;
+    background-color: rgb(247, 5, 5);
 }
