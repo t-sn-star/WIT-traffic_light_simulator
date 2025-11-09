@@ -7,13 +7,14 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="styles.css"/>
+      <link rel="stylesheet" href="styles.css"/> 
+      <script src="light.js"></script>
     </head>
     <body>
         <h1>Traffic Light Simulator</h1>
         <h2>Click the lights to change the traffic signal</h2>
-        <button onclick="changeColor()">Play</button>
-        <script src="light.js"></script>
+        <button id="playPauseButton" onclick="play_pause()">Play</button>
+       
         <div>
           <img id="all" src="traffic_all.png" alt="Traffic Light"/>
           <img id="red" src="traffic_red.png" alt="Red Light"/>
